@@ -15,6 +15,6 @@ arr.shift(): To extract first element of array and decrease the array size by 1
 
 arr1.concat(arr2): Concatenates arr1 and arr2
 */
-arr1 = [1,2,3,4,5]
+arr1 = [1,2,3,4,5,10]
 arr2 = [6,7,8]
 console.log(arr1.concat(arr2))
