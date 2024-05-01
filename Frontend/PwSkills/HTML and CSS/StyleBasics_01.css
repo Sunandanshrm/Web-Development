@@ -1,4 +1,11 @@
-p{
+*{
+    background-color: aquamarine;
+}
+p,h2{
     color: red;
-    font-weight: bolder;
+    font-weight: bolder;/*Commenting in CSS*/
   }
+.heading
+{
+color: blue;
+}
