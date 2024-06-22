@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #6594ee;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-item a:hover {
+    color: #ff6347; /* Tomato color */
+}
+
+.border-style-1 {
+    border: 2px solid red;
+}
+
+.border-style-2 {
+    border: 2px dashed green;
+}
+
+.border-style-3 {
+    border: 2px dotted blue;
+}
+
+.border-style-4 {
+    border: 2px double yellow;
+}
+
+.border-style-5 {
+    border: 2px groove purple;
+}
