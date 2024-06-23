@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height for centering */
+    position: relative; /* Ensure body serves as a positioning context for absolute children */
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine; /* Change color as desired */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#boxA {
+    left: 200px; /* 200px from the left of the viewport */
+    top: 200px; /* 200px from the top of the viewport */
+}
+
+#boxB {
+    left: calc(200px - 30px); /* 30px left relative to the center of box A */
+    top: calc(200px - 30px); /* 30px upward relative to the center of box A */
+    border: 1em;
+    z-index: 1000;
+}
+#boxC {
+    left: calc(200px + 30px); /* 30px left relative to the center of box A */
+    top: calc(200px - 30px); /* 30px upward relative to the center of box A */
+    border: 1em;
+    z-index: 1000;
+}
+#boxD {
+    left: calc(200px - 30px); /* 30px left relative to the center of box A */
+    top: calc(200px + 30px); /* 30px upward relative to the center of box A */
+    border: 1em;
+    z-index: 1000;
+}
+#boxE {
+    left: calc(200px + 30px); /* 30px left relative to the center of box A */
+    top: calc(200px + 30px); /* 30px upward relative to the center of box A */
+    border: 1em;
+    z-index: 1000;
+}
