@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header nav {
+    margin-left: 500px; /* Add margin-left to shift the nav links to the left */ 
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Ensure the nav links are aligned to the start */
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    opacity: 0.3; /* Adds a transition effect for the opacity change */
+}
+
+header a:hover {
+    opacity: 1; /* Changes opacity to 70% on hover */
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+header li:last-child a {
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 5px;
+    padding: 3px 8px; /* Adjust padding to account for border */
+}
+
+main {
+    margin-top: 60px; /* Add space to avoid overlap with fixed header */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    margin-top: 0;
+}
