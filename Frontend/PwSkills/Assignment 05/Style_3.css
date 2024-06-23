@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 900px;
+    background-color: #f5f5dc;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    overflow: hidden; /* Clear the floats */
+}
+
+.content {
+    float: left;
+    width: 60%; /* Adjust width as needed */
+}
+
+.image {
+    float: right;
+    width: 30%; /* Adjust width as needed */
+    text-align: right; /* Center align the image */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
