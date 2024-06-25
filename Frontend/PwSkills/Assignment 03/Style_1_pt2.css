@@ -1,0 +1,8 @@
+/* External CSS */
+.example2 {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;/* This will be overridden by internal CSS */
+    background-color: lightgray;/* This will be overridden by internal CSS */
+    color: blue;
+}

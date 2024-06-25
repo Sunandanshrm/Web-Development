@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS Example</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="Style_1_pt1.css">
+    <!-- Internal CSS -->
+    <style>
+        .example1 {
+            background-color: lightblue; /* This will be overridden by inline CSS */
+            color: black; /* This will be overridden by inline CSS */
+        }
+    </style>
+</head>
+<body>
+    <div class="example1" style="background-color: yellow; color: red;">
+        This box has inline CSS that overrides both internal and external CSS.
+    </div>
+</body>
+</html>

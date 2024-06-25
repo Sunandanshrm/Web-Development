@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.content__paragraph {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content__paragraph--highlight {
+    background-color: #ffeb3b;
+}
+
+.content__paragraph--large-text {
+    font-size: 1.5em;
+}
+
+.content__paragraph--italic {
+    font-style: italic;
+}
+
+.content__paragraph--bold {
+    font-weight: bold;
+}
+
+.content__paragraph--underlined {
+    text-decoration: underline;
+}

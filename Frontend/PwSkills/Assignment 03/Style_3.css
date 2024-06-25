@@ -1,0 +1,83 @@
+/* Custom Color Palette */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --background-color: #f4f4f4; /* Light grey */
+    --input-background-color: #ecf0f1; /* Very light grey */
+    --button-color: #e74c3c; /* Red */
+    --text-color: #333; /* Dark grey */
+    --section-opacity: 0.8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset {
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.legend {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+ {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Apply opacity to one of the form sections */
+.form-section--with-opacity {
+    opacity: var(--section-opacity);
+}
