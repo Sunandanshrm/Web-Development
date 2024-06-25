@@ -17,6 +17,6 @@ body {
     height: 400px; /* Set the desired height */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the whole area */
-    border: 5px solid #fff; /* Optional: Add a white border around the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow */
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
