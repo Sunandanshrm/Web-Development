@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 20px;
+}
+
+li a{
+    color: red;
+}
+
+header > nav > h2 {
+    color: white;
+    background-color: blue;
+}
+
+div+p{
+    color: red;
+}
+
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+.active{
+    color: violet;
+    text-decoration: underline;
+}
+
+a[target="_self"]{
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+p:last-child::after{
+    content: "...";
+}
+ul li::marker {
+    color: blue; /* Change bullet points to blue */
+}
+
+p:nth-of-type(2)::first-letter{
+    color: blue;
+    font-size: 30px;
+}

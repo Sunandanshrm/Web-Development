@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /* 3 columns */
+
+    gap: 10px; /* Space between the grid items */
+}
+
+.grid-item {
+    background-color: lightsalmon;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 24px;
+    border-radius: 8px;
+    min-height: 100px;
+}
+
+/* Positioning items on the grid */
+.item-a {
+    grid-column: 1 / span 2; /* Span columns 1 to 2 */
+    grid-row: 1; /* Row 1 */
+}
+
+.item-b {
+    grid-column: 3; /* Column 3 */
+    grid-row: 1 / span 2; /* Span rows 1 to 2 */
+}
+
+.item-c {
+    grid-column: 1; /* Column 1 */
+    grid-row: 2; /* Row 2 */
+}
+
+.item-d {
+    grid-column: 2; /* Column 2 */
+    grid-row: 2; /* Row 2 */
+}

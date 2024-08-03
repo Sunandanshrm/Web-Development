@@ -1,0 +1,2 @@
+The "grid-auto-rows" property specifies the size of rows that are automatically created 
+when more content is added to the grid than the explicit grid definition.

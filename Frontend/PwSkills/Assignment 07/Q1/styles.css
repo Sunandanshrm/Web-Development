@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px; /* 3 columns */
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 24px;
+    min-height: 100px;
+    position: relative;
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    object-fit: fill;
+}
+/* Positioning items on the grid */
+.item-a {
+    grid-column: 1 / span 2; /* Span columns 1 to 2 */
+    grid-row: 1; /* Row 1 */
+}
+
+.item-b {
+    grid-column: 3; /* Column 3 */
+    grid-row: 1;
+}
+
+.item-c {
+    grid-column: 1; /* Column 1 */
+    grid-row: 2 / span 2; /* Row 2 */
+}
+
+.item-d {
+    grid-column: 2; /* Column 2 */
+    grid-row: 2; /* Row 2 */
+}
+.item-e {
+    grid-column: 2; /* Column 2 */
+    grid-row: 3;
+}
+.item-f{
+    grid-column: 3;
+    grid-row: span 2
+}

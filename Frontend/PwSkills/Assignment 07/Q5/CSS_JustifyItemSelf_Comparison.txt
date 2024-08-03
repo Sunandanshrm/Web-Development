@@ -1,0 +1,7 @@
+The `justify-items` and `justify-self` properties in CSS Grid Layout control the horizontal alignment of grid items within their grid areas.
+
+The `justify-items` property sets the default horizontal alignment for all items in the grid, with options like `start`, `end`, `center`, and `stretch`.
+It applies uniformly to all grid items unless overridden.
+
+The `justify-self` property, on the other hand, allows for individual control of the horizontal alignment of specific grid items within their own grid areas, using the same alignment options as `justify-items`.
+This distinction provides flexibility, with `justify-items` offering a consistent alignment across the grid, and `justify-self` enabling tailored alignment for particular items.

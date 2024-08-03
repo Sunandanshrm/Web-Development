@@ -1,0 +1,13 @@
+Brief explanations of key Flexbox properties (as mentioned in the question):
+
+- "justify-content": Aligns flex items along the main axis (horizontal by default). Options include `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, and `space-evenly`.
+
+- "align-items": Aligns flex items along the cross axis (vertical by default). Options include `flex-start`, `flex-end`, `center`, `baseline`, and `stretch`.
+
+- "gap": Sets the spacing between flex items. It can be defined in any CSS unit, such as `px`, `em`, or `%`.
+
+- "flex-direction": Specifies the direction of the flex items within the container. Options include `row` (default), `row-reverse`, `column`, and `column-reverse`.
+
+- "flex-wrap": Controls whether flex items should wrap onto multiple lines. Options include `nowrap` (default), `wrap`, and `wrap-reverse`.
+
+These properties provide powerful tools for controlling the layout and alignment of items within a flex container.
