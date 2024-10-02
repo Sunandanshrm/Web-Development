@@ -7,7 +7,7 @@ var i = 1
 console.log(i++): first print i then add 1 to it i.e. post increment
 console.log(i)
 var i = 1
-console.log(++i): first add 1 to i then print i i.e. pre increment
+console.log(++i): first add 1 to i then print i (i.e. pre increment)
 console.log(i)
 
 var i = 1
